@@ -112,7 +112,7 @@ def main():
     print("SETUP COMPLETE!")
     print("="*40)
     print("Important: To make the server start automatically,")
-    print("Go to the PTERODACTYL STARTUP TAB and set 'Startup Command' to:")
+    print("Go to the start.py file and set CHANGEME to:")
     print("-" * 20)
     print(f"source {venv_path}/bin/activate && redbot <your_instance_name>")
     print("-" * 20)

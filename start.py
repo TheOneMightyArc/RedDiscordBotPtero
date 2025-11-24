@@ -2,10 +2,10 @@ import subprocess
 import sys
 
 def start_red():
-    print("--- Starting Redbot Instance: 'test' ---")
+    print("--- Starting Redbot Instance: 'PUTNAMEHERE' ---")
     
     # The command you requested
-    command = "source /home/container/redenv/bin/activate && redbot mybot"
+    command = "source /home/container/redenv/bin/activate && redbot PUTNAMEHERE"
     
     # We must use executable='/bin/bash' because 'source' is a bash command 
     # (standard /bin/sh usually uses '.' instead of 'source')
