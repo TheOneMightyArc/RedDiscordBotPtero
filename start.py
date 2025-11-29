@@ -4,7 +4,7 @@ import sys
 def start_red():
     print("--- Starting Redbot Instance: 'PUTNAMEHERE' ---")
     
-    # The command you requested
+    # The command
     command = "source /home/container/redenv/bin/activate && redbot PUTNAMEHERE"
     
     # We must use executable='/bin/bash' because 'source' is a bash command 
