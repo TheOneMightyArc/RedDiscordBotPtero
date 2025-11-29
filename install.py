@@ -85,7 +85,7 @@ def run_setup(venv_path):
     print("="*40)
     print("Please follow the prompts below to configure your bot instance.\n")
     
-    # We use os.system here to ensure the interactive console works perfectly
+    # Use os.system here to ensure the interactive console works perfectly
     os.system(setup_bin)
 
 def main():
