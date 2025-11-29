@@ -4,10 +4,10 @@ import sys
 def start_red():
     print("--- Starting Redbot Instance: 'PUTNAMEHERE' ---")
     
-    # The command
+    
     command = "source /home/container/redenv/bin/activate && redbot PUTNAMEHERE"
     
-    # We must use executable='/bin/bash' because 'source' is a bash command 
+    # Use executable='/bin/bash' because 'source' is a bash command 
     # (standard /bin/sh usually uses '.' instead of 'source')
     try:
         subprocess.run(command, shell=True, executable='/bin/bash')
